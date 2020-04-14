@@ -32,33 +32,20 @@ animation: pulse 5s infinite;
 
 form{
 	float: right;
-	color: brown;
 	padding: 1rem;
 	border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
-	border: 1px solid brown;
-	background-color:#AA8479;
 	width: 400px
 	}
 
-select{
-	color: brown;
-}
-
-span{
-	color: brown;
-}
 
 
 .border {
     border-top: 1px solid #fff;
     margin: 10px 0 10px 0;
 }
-
-
-
 
 h2 {
     font-size: 16px;
@@ -67,8 +54,6 @@ h2 {
     margin: 12px 0 5px 0;
     text-align: center;
 }
-
-
 
 h1 {
     font-size: 44px;
@@ -92,9 +77,4 @@ h1 {
 
 .an{
 	color: #fff
-}
-
-
-*{
-	background-image: url(IMG_20191016_083222_2.jpg);
 }
