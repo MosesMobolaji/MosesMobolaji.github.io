@@ -1,24 +1,18 @@
-p{
-	margin-left: 0px;
+*{
+	margin:0px;
 }
 
 body{
-	background-color:#AA8499;
+	background-color:rgb(242, 242, 242);
 }
 
 p{
 	color:white;
-	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	padding: 5px;
-}
-
-p{
 	border: 2px solid blue;
-	width: 40px
-}
-
-p{
-animation: pulse 5s infinite;
+	width: 40px;
+	animation: pulse 5s infinite;
 }
 
 @keyframes pulse {
@@ -31,12 +25,12 @@ animation: pulse 5s infinite;
 
 
 form{
-	float: right;
+	display:flex;
+	justify-content:center;
+	border:1px solid white;
+	background-color:gray;
 	padding: 1rem;
 	border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -khtml-border-radius: 10px;
 	width: 400px
 	}
 
@@ -44,7 +38,7 @@ form{
 
 .border {
     border-top: 1px solid #fff;
-    margin: 10px 0 10px 0;
+    margin: 10px 0px;
 }
 
 h2 {
@@ -56,19 +50,15 @@ h2 {
 }
 
 h1 {
-    font-size: 44px;
     color: #FFF;
     line-height: 44px;
     text-align: center;
-}
-
-h1 {
     font-size: 1.8em;
     font-weight: normal;
 }
 
 .for .am{
-	-webkit-border-radius: 5px;
+	border-radius: 5px;
 	 margin: 3px 0 3px 0;
 }
 .for .go{
